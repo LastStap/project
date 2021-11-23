@@ -1,2 +1,2 @@
-console.log("2"+ +"10");
-console.log("Bodya chert");
+let numberOfFilms = prompt("Сколько фильмов вы посмотрели?", "");
+console.log(numberOfFilms);
