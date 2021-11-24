@@ -16,5 +16,35 @@
             ыыы
         </h2>
     </div>
+    <script>
+
+
+        let priv =(false);
+        let numberOfFilms = prompt("Сколько фильмов вы посмотрели?", "");
+        
+        let seenFilms1 = (prompt("Один из последних просмотренных фильмов?", ""));
+        let rateFilms1 = (prompt("На сколько оцените его?", ""));
+        let seenFilms2 = (prompt("Один из последних просмотренных фильмов?", ""));
+        let rateFilms2 = (prompt("На сколько оцените его?", ""));
+
+        let personalMovieDB = {
+                count: [numberOfFilms],
+                movies: {
+                seenFilms1: [rateFilms1],
+                seenFilms2: [rateFilms2],
+                },
+                actors: {},
+                genres: [],
+                privat: [priv]
+
+        };
+        console.log(personalMovieDB.seenFilms1);
+
+// let seenFilms = 0
+// for (seenFilms = 0; seenFilms<2; seenFilms++){
+//     prompt("Один из последних просмотренных фильмов?", "")
+//     return (console.log(seenFilms));
+// }
+    </script>
 </body>
 </html>
